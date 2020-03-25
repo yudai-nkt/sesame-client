@@ -1,0 +1,68 @@
+{
+  "name": "sesame-cilent",
+  "version": "0.1.0",
+  "description": "Node.js client for Sesame smart lock API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "doc": "typedoc",
+    "lint": "eslint --ext .ts ./src/",
+    "open:doc": "open-cli ./doc/index.html",
+    "open:coverage": "open-cli ./coverage/lcov-report/index.html",
+    "postpublish": "git push origin $(git describe --tags)",
+    "test": "jest",
+    "test:coverage": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudai-nkt/sesame-client.git"
+  },
+  "keywords": [
+    "sesame",
+    "smart-lock",
+    "iot",
+    "smart-home",
+    "api",
+    "rest",
+    "bluetooth"
+  ],
+  "author": "Yudai Nakata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yudai-nkt/sesame-client/issues"
+  },
+  "homepage": "https://yudai-nkt.github.io/sesame-client",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/jest": "^25.1.4",
+    "@types/nock": "^11.1.0",
+    "@types/node": "^13.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-with-typescript": "^15.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "nock": "^12.0.3",
+    "open-cli": "^5.0.0",
+    "standard-version": "^7.1.0",
+    "ts-jest": "^25.2.1",
+    "typedoc": "^0.17.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "camelcase-keys": "^6.2.1"
+  },
+  "standard-version": {
+    "scripts": {
+      "prebump": "npm run doc && touch ./docs/.nojekyll && git add ./docs && git commit -m 'Update document for the next release'"
+    }
+  }
+}
