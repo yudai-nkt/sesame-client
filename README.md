@@ -1,6 +1,6 @@
 # sesame-client
 
-[![NPM](https://img.shields.io/npm/v/sesame-cilent)](https://www.npmjs.com/package/sesame-client)
+[![NPM](https://img.shields.io/npm/v/sesame-client)](https://www.npmjs.com/package/sesame-client)
 [![Node.js CI](https://github.com/yudai-nkt/sesame-client/workflows/Node.js%20CI/badge.svg)](https://github.com/yudai-nkt/sesame-client/actions?query=workflow%3A%22Node.js+CI%22)
 [![Test coverage](https://img.shields.io/codecov/c/github/yudai-nkt/sesame-client?logo=codecov)](https://codecov.io/gh/yudai-nkt/sesame-client)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
