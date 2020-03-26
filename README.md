@@ -5,7 +5,7 @@
 [![Test coverage](https://img.shields.io/codecov/c/github/yudai-nkt/sesame-client?logo=codecov)](https://codecov.io/gh/yudai-nkt/sesame-client)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Node.js client for Sesami smart lock API
+Node.js client for Sesame smart lock API
 
 ```javascript
 const sesame = require('sesame-client')
