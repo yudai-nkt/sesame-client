@@ -83,7 +83,7 @@ export class RestClient {
    * Fetch a result of command execution associated with the task ID.
    * @param taskId Task ID you want to qeury.
    */
-  async queryExceutionResult (taskId: Sesame.TaskId): Promise<Sesame.ExecutionResult> {
+  async queryExecutionResult (taskId: Sesame.TaskId): Promise<Sesame.ExecutionResult> {
     const response = await this.requestGet<Sesame.ExecutionResult>(`/action-result?task_id=${taskId}`)
     return response
   }

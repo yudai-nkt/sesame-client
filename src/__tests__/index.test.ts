@@ -101,7 +101,7 @@ describe('test suite for RestClient.QueryExecutionResult()', () => {
   const client = new RestClient(ACCESS_TOKEN)
 
   it('should return a valid excecution result', async () => {
-    const response = await client.queryExceutionResult('01234567-890a-bcde-f012-34567890abcd')
+    const response = await client.queryExecutionResult('01234567-890a-bcde-f012-34567890abcd')
 
     expect(response).toEqual(
       {
