@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/yudai-nkt/sesame-client/compare/v0.1.1...v0.1.2) (2020-03-27)
+
+
+### Bug Fixes
+
+* **deps:** bump minimist from 0.0.8 to 1.2.5 ([81d0664](https://github.com/yudai-nkt/sesame-client/commit/81d0664c16aa5a371f1c91dccd8e4f7b9eab5601))
+
 ### [0.1.1](https://github.com/yudai-nkt/sesame-client/compare/v0.1.0...v0.1.1) (2020-03-26)
 
 
