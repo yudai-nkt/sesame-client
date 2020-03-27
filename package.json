@@ -72,7 +72,7 @@
   },
   "standard-version": {
     "scripts": {
-      "prebump": "npm run doc && touch ./docs/.nojekyll && git add ./docs && git commit -m 'docs: update document for the next release'"
+      "prerelease": "npm run doc && touch ./docs/.nojekyll && git add ./docs && git commit -m 'docs: update document for the next release'"
     }
   }
 }
