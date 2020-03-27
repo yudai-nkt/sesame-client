@@ -14,7 +14,7 @@
     "lint": "eslint --ext .ts ./src/",
     "open:doc": "open-cli ./doc/index.html",
     "open:coverage": "open-cli ./coverage/lcov-report/index.html",
-    "postpublish": "git push origin $(git describe --tags)",
+    "postpublish": "git push --follow-tags origin master",
     "preinstall": "npx npm-force-resolutions",
     "test": "jest",
     "test:coverage": "jest --coverage=true"
