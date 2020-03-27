@@ -15,6 +15,7 @@
     "open:doc": "open-cli ./doc/index.html",
     "open:coverage": "open-cli ./coverage/lcov-report/index.html",
     "postpublish": "git push origin $(git describe --tags)",
+    "preinstall": "npx npm-force-resolutions",
     "test": "jest",
     "test:coverage": "jest --coverage=true"
   },
@@ -55,6 +56,7 @@
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "nock": "^12.0.3",
+    "npm-force-resolutions": "0.0.3",
     "open-cli": "^5.0.0",
     "standard-version": "^7.1.0",
     "ts-jest": "^25.2.1",
@@ -64,6 +66,9 @@
   "dependencies": {
     "axios": "^0.19.2",
     "camelcase-keys": "^6.2.1"
+  },
+  "resolutions": {
+    "minimist": "^1.2.3"
   },
   "standard-version": {
     "scripts": {
