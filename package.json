@@ -40,7 +40,7 @@
   },
   "homepage": "https://yudai-nkt.github.io/sesame-client",
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^11.0.0",
     "@types/jest": "^26.0.20",
     "@types/nock": "^11.1.0",
